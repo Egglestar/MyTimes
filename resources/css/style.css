@@ -1,0 +1,63 @@
+* {
+  border: dashed 0.1px darkblue;
+}
+
+header {
+  width: 100%;
+  font-family: Verdana,sans-seriF;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: solid 1px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 20;
+  background-color: white;
+  padding: 10px 0;
+}
+
+.logo {
+  color: MediumAquamarine;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.logo h4 {
+  padding-left: 10px;
+}
+
+.nav li{
+  display: inline;
+  list-style: none;
+  padding: 0 30px;
+}
+
+.nav a {
+  color: black;
+}
+
+main {
+  padding-top: 120px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.large {
+  width: 630px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.medium {
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+}
+
+.small {
+  width: 240px;
+  display: flex;
+  flex-flow: column;
+}
