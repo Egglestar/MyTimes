@@ -40,14 +40,14 @@ header {
 
 main {
   padding-top: 120px;
-  display: inline-flex;
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
 }
 
 .large {
   width: 630px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
 }
 
 .medium {
